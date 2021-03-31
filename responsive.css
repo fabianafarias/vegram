@@ -1,0 +1,47 @@
+/* smarthphone */
+@media (max-width: 640px) {
+    
+    body {
+        background-color: #ffffff;
+    }
+
+    .vegram-wrapper {
+        width: 90%;
+    }
+
+    .vegram-phone {
+        display: none;
+    }
+
+    .vegram-continue {
+        width: 100%;
+    }
+    
+    .group {
+        border: 1px solid transparent;
+    }
+}
+
+/*tablets e smathphones de segunda geração*/
+@media screen and (max-width:768px){
+    .vegram-phone img {
+         height: 40rem;
+     }
+    
+}
+
+/*notebooks e desktops*/
+@media screen and (min-width:1024px){
+
+      .vegram-phone img {
+        height: 40rem;
+    }
+  
+}
+
+@media (max-width: 1024px) {
+    .vegram-wrapper {
+        width: 90%;
+    }
+}
+
